@@ -57,17 +57,11 @@ We'll download our dataset from NOAA, a US government agency.  You can follow th
 
 * Go to [NOAA Search](https://www.ncdc.noaa.gov/cdo-web/search)
 * Enter the years you want data for (I recommend starting with 1970), and search for the closest airport to you.
-    * <img src="../weather/imgs/download_1.png" width="500"/>
 * Click add to cart on the airport you want.
     * If there is no airport near you, try your city or country name instead.
-    * <img src="../weather/imgs/download_2.png" width="500"/>
 * Go to the [cart](https://www.ncdc.noaa.gov/cdo-web/cart)
 * Select the csv format and click continue.
-    * <img src="../weather/imgs/download_3.png" width="500"/>
 * Select all of the checkboxes for data types.
-    * <img src="../weather/imgs/download_4.png" width="500"/>
 * Enter your email and click continue.
-    * <img src="../weather/imgs/download_5.png" width="500"/>
 * You'll get an email with a link to download the data.
-    * <img src="../weather/imgs/download_6.png" width="500"/>
 * Make sure to take a look at the [data documentation](https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf) as well.
