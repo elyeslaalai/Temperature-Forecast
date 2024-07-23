@@ -1,67 +1,12 @@
 # Project Overview
 
-In this project, we'll predict tomorrow's temperature using historical data.  We'll start by downloading a dataset of local weather.  You can customize this to your own location.  Then, we'll clean the data and get it ready for machine learning.  We'll build a system to make historical predictions.  Then, we'll add more predictors to improve the model.  We'll end with how to make next-day predictions.
+This project leverages advanced machine-learning techniques to predict future weather conditions based on historical data. The model uses a dataset with several weather data points in a particular location. This flexible project allows us to execute it in any region, country, or continent. I proceeded to clean the data and make it usable for our analyses. 
+Then, I run our script to make a series of well-informed predictions that include several factors to enhance their precision. This project is a work-in-progress. I will improve the methodology and analyses as I expand my knowledge of environmental sciences, data sciences, and the most recent technological breakthroughs. 
 
-**Project Steps**
-* Download weather data
-* Clean and graph data
-* Create a testing framework
-* Improve model accuracy
+## Setup Used
 
-
-## Code
-
-You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/temperature_prediction)
-
-File overview:
-
-* `predict.ipynb` - predict the temperature
-
-# Prerequisites
-
-To complete this project, you'll need to have a good understanding of:
-
-* Python syntax, including functions, if statements, and data structures
-* Data cleaning
-* Pandas syntax
-* Using Jupyter notebook
-
-You'll also need to know the basics of machine learning.
-
-Please make sure you've completed these Dataquest courses (or know the material) before trying this project:
-
-* [Python Introduction](https://www.dataquest.io/course/introduction-to-python/)
-* [For Loops and If Statements](https://www.dataquest.io/course/for-loops-and-conditional-statements-in-python/)
-* [Dictionaries In Python](https://www.dataquest.io/course/dictionaries-frequency-tables-and-functions-in-python/)
-* [Functions and Jupyter Notebook](https://www.dataquest.io/course/python-functions-and-jupyter-notebook/)
-* [Python Intermediate](https://www.dataquest.io/course/python-for-data-science-intermediate/)
-* [Pandas and NumPy Fundamentals](https://www.dataquest.io/course/pandas-fundamentals/)
-* [Data Cleaning](https://www.dataquest.io/course/python-datacleaning/)
-* [Machine Learning Fundamentals](https://www.dataquest.io/course/machine-learning-fundamentals/)
-
-# Local Setup
-
-## Installation
-
-To follow this project, please install the following locally:
-
-* JupyerLab
-* Python 3.8+
-* Python packages
-    * pandas
-    * scikit-learn
-
-## Data
-
-We'll download our dataset from NOAA, a US government agency.  You can follow these instructions to download the data:
-
-* Go to [NOAA Search](https://www.ncdc.noaa.gov/cdo-web/search)
-* Enter the years you want data for (I recommend starting with 1970), and search for the closest airport to you.
-* Click add to cart on the airport you want.
-    * If there is no airport near you, try your city or country name instead.
-* Go to the [cart](https://www.ncdc.noaa.gov/cdo-web/cart)
-* Select the csv format and click continue.
-* Select all of the checkboxes for data types.
-* Enter your email and click continue.
-* You'll get an email with a link to download the data.
-* Make sure to take a look at the [data documentation](https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf) as well.
+- Python (3.8+ preferred)
+- Pandas
+- scikit-learn
+- JupyterLab
+- Dataset from NOAA
